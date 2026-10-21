@@ -1,12 +1,12 @@
 {
   "name": "effort-router",
-  "version": "0.1.0",
-  "description": "Lets Claude pick the reasoning effort for each task: simple work stays in the main session, hard work is delegated to high- or max-effort subagents.",
+  "version": "0.2.0",
+  "description": "Lets Claude pick the reasoning effort for each task: hard work goes to high- or max-effort subagents, and dispatch mode (Claude desktop app) switches a worker session's effort for every task.",
   "author": {
     "name": "BabuNfr666"
   },
   "homepage": "https://github.com/BabuNfr666/claude-effort-router",
   "repository": "https://github.com/BabuNfr666/claude-effort-router",
   "license": "MIT",
-  "keywords": ["effort", "reasoning", "subagents", "routing", "cost"]
+  "keywords": ["effort", "reasoning", "subagents", "routing", "dispatch", "cost"]
 }

@@ -12,3 +12,5 @@ When you delegate:
 - When it reports back, check the result before telling the user it is done, then summarize.
 
 Do not delegate when the task needs back-and-forth with the user, when it is quicker to just do it, or when the user asks you to handle it here. If the user names a level ("use max", "do it yourself"), follow that. The user can also force routing with `/effort-router:deep <task>` or `/effort-router:max <task>`.
+
+Dispatch mode: if the user runs `/effort-router:dispatch`, its rules replace this policy in that session. A session whose brief says it is the worker of effort-router dispatch mode already runs at the effort picked for each task, so it does every task itself and does not delegate to effort-router subagents.
