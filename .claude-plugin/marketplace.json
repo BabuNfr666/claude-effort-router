@@ -1,0 +1,14 @@
+{
+  "name": "effort-router",
+  "owner": {
+    "name": "BabuNfr666"
+  },
+  "description": "Automatic effort routing for Claude Code.",
+  "plugins": [
+    {
+      "name": "effort-router",
+      "source": "./",
+      "description": "Lets Claude pick the reasoning effort for each task: simple work stays in the main session, hard work is delegated to high- or max-effort subagents."
+    }
+  ]
+}

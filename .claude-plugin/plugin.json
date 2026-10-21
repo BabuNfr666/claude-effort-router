@@ -1,0 +1,12 @@
+{
+  "name": "effort-router",
+  "version": "0.1.0",
+  "description": "Lets Claude pick the reasoning effort for each task: simple work stays in the main session, hard work is delegated to high- or max-effort subagents.",
+  "author": {
+    "name": "BabuNfr666"
+  },
+  "homepage": "https://github.com/BabuNfr666/claude-effort-router",
+  "repository": "https://github.com/BabuNfr666/claude-effort-router",
+  "license": "MIT",
+  "keywords": ["effort", "reasoning", "subagents", "routing", "cost"]
+}

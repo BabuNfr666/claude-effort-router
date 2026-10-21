@@ -1,0 +1,17 @@
+{
+  "description": "Loads the effort routing policy into each session.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"${CLAUDE_PLUGIN_ROOT}/hooks/routing-policy.md\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
